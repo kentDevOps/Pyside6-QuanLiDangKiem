@@ -1,0 +1,2746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1241</width>
+    <height>859</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QWidget" name="headerWg" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QPushButton" name="pushButton">
+               <property name="styleSheet">
+                <string notr="true">border:none;</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="reources.qrc">
+                 <normaloff>:/icons/menu.png</normaloff>:/icons/menu.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>39</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_22">
+               <item>
+                <widget class="QLabel" name="label">
+                 <property name="font">
+                  <font>
+                   <pointsize>15</pointsize>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Hello , Guys</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>Welcome To Your Page</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>198</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+              <widget class="QLineEdit" name="lineEdit">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>31</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>31</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:black;
+}</string>
+               </property>
+               <property name="placeholderText">
+                <string>Type something ... </string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="maximumSize">
+                <size>
+                 <width>40</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap resource="reources.qrc">:/icons/profile.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="MainWg" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>871</width>
+          <height>751</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>5000</width>
+          <height>751</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget{
+	background-color: rgb(131, 255, 189);
+	color:white;
+}</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="1" column="0">
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="maximumSize">
+            <size>
+             <width>5000</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="currentIndex">
+            <number>13</number>
+           </property>
+           <widget class="QWidget" name="KL4P"/>
+           <widget class="QWidget" name="TK3P"/>
+           <widget class="QWidget" name="CN5P"/>
+           <widget class="QWidget" name="CN4P"/>
+           <widget class="QWidget" name="CN3P"/>
+           <widget class="QWidget" name="CN2P"/>
+           <widget class="QWidget" name="LC3P"/>
+           <widget class="QWidget" name="LC2P"/>
+           <widget class="QWidget" name="LC1P"/>
+           <widget class="QWidget" name="TK8P"/>
+           <widget class="QWidget" name="TK7P"/>
+           <widget class="QWidget" name="TK6P"/>
+           <widget class="QWidget" name="TK5P"/>
+           <widget class="QWidget" name="NhapDVP">
+            <widget class="QLabel" name="label_9">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>10</y>
+               <width>491</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>-1</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLabel
+{
+	color:#12B298;
+	/*background-color:white;*/
+	font-size:25px;
+	font-weight: bold;
+}</string>
+             </property>
+             <property name="text">
+              <string>TÍNH NĂNG : THÊM ĐƠN VỊ ĐĂNG KIỂM</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>50</y>
+               <width>371</width>
+               <height>25</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 170, 127);</string>
+             </property>
+             <property name="text">
+              <string>Chào Mừng Đến Với Trang : Thêm Đơn Vị Đăng Kiểm</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>100</y>
+               <width>101</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	background-color:#34D481;
+	color:white;
+	border:none;
+	border-radius:8px;
+	font-weight:bold;
+	font-size: 15px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Thêm Mới</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>170</x>
+               <y>100</y>
+               <width>101</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	background-color:#585858;
+	color:white;
+	border:none;
+	border-radius:8px;
+	font-weight:bold;
+	font-size: 15px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Sửa - Lưu</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>100</y>
+               <width>101</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	background-color:red;
+	color:white;
+	border:none;
+	border-radius:8px;
+	font-weight:bold;
+	font-size: 15px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Xóa</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_11">
+             <property name="geometry">
+              <rect>
+               <x>21</x>
+               <y>181</y>
+               <width>79</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Mã Đơn Vị ĐK :</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txMaDk">
+             <property name="geometry">
+              <rect>
+               <x>106</x>
+               <y>181</y>
+               <width>114</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QTableWidget" name="tableWidget">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>220</y>
+               <width>201</width>
+               <height>491</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QHeaderView::section{
+	font-weight:bold;
+	background-color:black;
+	color:White
+}</string>
+             </property>
+             <attribute name="horizontalHeaderCascadingSectionResizes">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="horizontalHeaderDefaultSectionSize">
+              <number>200</number>
+             </attribute>
+             <column>
+              <property name="text">
+               <string>Mã Đơn Vị Đăng Kiểm</string>
+              </property>
+             </column>
+            </widget>
+            <widget class="QLabel" name="label_12">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>180</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Tỉnh, Thành phố:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_13">
+             <property name="geometry">
+              <rect>
+               <x>540</x>
+               <y>180</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Điện thoại / Fax:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_14">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>240</y>
+               <width>91</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Địa Chỉ:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_15">
+             <property name="geometry">
+              <rect>
+               <x>251</x>
+               <y>321</y>
+               <width>55</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Giám Đốc:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_16">
+             <property name="geometry">
+              <rect>
+               <x>251</x>
+               <y>371</y>
+               <width>65</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>P.Giám Đốc:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_17">
+             <property name="geometry">
+              <rect>
+               <x>251</x>
+               <y>411</y>
+               <width>65</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>P.Giám Đốc:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_18">
+             <property name="geometry">
+              <rect>
+               <x>250</x>
+               <y>450</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>P.Giám Đốc:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_19">
+             <property name="geometry">
+              <rect>
+               <x>551</x>
+               <y>371</y>
+               <width>59</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Điện Thoại:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_20">
+             <property name="geometry">
+              <rect>
+               <x>551</x>
+               <y>411</y>
+               <width>59</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Điện Thoại:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_21">
+             <property name="geometry">
+              <rect>
+               <x>550</x>
+               <y>460</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Điện Thoại:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_22">
+             <property name="geometry">
+              <rect>
+               <x>551</x>
+               <y>321</y>
+               <width>59</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Điện Thoại:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_23">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>580</y>
+               <width>101</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Số Lượng DC:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_24">
+             <property name="geometry">
+              <rect>
+               <x>520</x>
+               <y>580</y>
+               <width>151</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Số Lượng DC hoạt động:</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_25">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>620</y>
+               <width>151</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Đơn Vị Chủ Quản</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_26">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>660</y>
+               <width>81</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Tên Đơn Vị</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_27">
+             <property name="geometry">
+              <rect>
+               <x>600</x>
+               <y>670</y>
+               <width>151</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Địa Chỉ Mail:</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txTinhTp">
+             <property name="geometry">
+              <rect>
+               <x>350</x>
+               <y>180</y>
+               <width>151</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txSdt">
+             <property name="geometry">
+              <rect>
+               <x>640</x>
+               <y>180</y>
+               <width>191</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Số ĐT/Fax ... </string>
+             </property>
+            </widget>
+            <widget class="QTextEdit" name="textEdit">
+             <property name="geometry">
+              <rect>
+               <x>350</x>
+               <y>220</y>
+               <width>481</width>
+               <height>71</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc">
+             <property name="geometry">
+              <rect>
+               <x>312</x>
+               <y>321</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_6">
+             <property name="geometry">
+              <rect>
+               <x>616</x>
+               <y>321</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_2">
+             <property name="geometry">
+              <rect>
+               <x>616</x>
+               <y>371</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_3">
+             <property name="geometry">
+              <rect>
+               <x>322</x>
+               <y>371</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_4">
+             <property name="geometry">
+              <rect>
+               <x>322</x>
+               <y>411</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_5">
+             <property name="geometry">
+              <rect>
+               <x>616</x>
+               <y>411</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_6">
+             <property name="geometry">
+              <rect>
+               <x>340</x>
+               <y>460</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_7">
+             <property name="geometry">
+              <rect>
+               <x>640</x>
+               <y>460</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_8">
+             <property name="geometry">
+              <rect>
+               <x>420</x>
+               <y>620</y>
+               <width>341</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="txGiamdoc_9">
+             <property name="geometry">
+              <rect>
+               <x>400</x>
+               <y>660</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>31</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QLineEdit{
+	padding-left:20px;
+    border: 1px solid gray;
+	border-radius: 10px;
+	color:gray;
+}
+QLineEdit:placeholder {
+    color: black; /* Màu của placeholderText */
+}</string>
+             </property>
+             <property name="placeholderText">
+              <string>Nhập Mã ĐK ... </string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="TK4P"/>
+           <widget class="QWidget" name="TK2P">
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>228</x>
+               <y>140</y>
+               <width>111</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(15, 15, 15);</string>
+             </property>
+             <property name="text">
+              <string>TK2</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="setP"/>
+           <widget class="QWidget" name="KL6P"/>
+           <widget class="QWidget" name="KL5P"/>
+           <widget class="QWidget" name="KL3P"/>
+           <widget class="QWidget" name="KL2P"/>
+           <widget class="QWidget" name="KL1P"/>
+           <widget class="QWidget" name="CN6P"/>
+           <widget class="QWidget" name="Tk1P">
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>170</y>
+               <width>411</width>
+               <height>161</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(9, 9, 9);</string>
+             </property>
+             <property name="text">
+              <string>Cap lan dau</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="CN1P"/>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QFrame" name="iconExpand_wg">
+      <property name="minimumSize">
+       <size>
+        <width>246</width>
+        <height>841</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>246</width>
+        <height>841</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+	background-color: rgb(0, 0, 0);
+	color:white;
+}
+QPushButton{
+    border:none;
+	height:30px;    
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_21">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>13</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="maximumSize">
+              <size>
+               <width>40</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap resource="reources.qrc">:/icons/logo.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>SQL QUERY TOOL FOR ACCESS</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>13</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_20">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="thongKe">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <widget class="QFrame" name="frame">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <item>
+                <widget class="QPushButton" name="themDVbut">
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	color:#12B298;
+	background-color:white;
+	font-size:15px;
+	font-weight: bold;
+
+}
+QPushButton{
+	color:white;
+	font-size:13px;
+	font-weight: bold;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>THÊM ĐƠN VỊ ĐĂNG KIỂM</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="TKbut">
+              <property name="styleSheet">
+               <string notr="true">QPushButton:hover{
+	color:#12B298;
+	background-color:white;
+	font-size:17px;
+	font-weight: bold;
+
+}
+QPushButton{
+	color:white;
+	font-size:13px;
+	font-weight: bold;
+
+}</string>
+              </property>
+              <property name="text">
+               <string>THỐNG KÊ</string>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="tkList">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_12">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="tkCapLanDau">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>1. Cấp Lần Đầu</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkCapTungDonvi">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>2. Cấp Giấy Từng Đơn Vị</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkTheoNam">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>3. Cấp Theo Năm</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkTheoKhoangTime">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>4. Cấp Theo Khoảng Thời Gian</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkTheoNgayCN">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>5. Cấp Theo Ngày Cấp CN</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkToanBo">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>6. Cấp Giấy Toàn Bộ Các Đơn Vị</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkDanhSachDKV">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>7. Danh Sách ĐKV Toàn Bộ</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="tkLuanChuyenSum">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>8. Thống Kê Luân Chuyển</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="luanChuyen">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <item>
+             <widget class="QPushButton" name="luanChuyenBut">
+              <property name="styleSheet">
+               <string notr="true">QPushButton:hover{
+	color:#12B298;
+	background-color:white;
+	font-size:17px;
+	font-weight: bold;
+
+}
+QPushButton{
+	color:white;
+	font-size:13px;
+	font-weight: bold;
+
+}</string>
+              </property>
+              <property name="text">
+               <string>LUÂN CHUYỂN</string>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="lcList">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_15">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="LCNhap">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>1. Nhập Luân Chuyển</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="LCKiemTraSuaChua">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>2. Kiểm Tra Sửa Chữa</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="LCKiemtraDKV">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>3. Kiểm Tra Số Lượng DC, ĐKV</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="capGiayCn">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <item>
+             <widget class="QPushButton" name="GCNbut">
+              <property name="styleSheet">
+               <string notr="true">QPushButton:hover{
+	color:#12B298;
+	background-color:white;
+	font-size:17px;
+	font-weight: bold;
+
+}
+QPushButton{
+	color:white;
+	font-size:13px;
+	font-weight: bold;
+
+}</string>
+              </property>
+              <property name="text">
+               <string>CẤP GIẤY CN</string>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="GCNList">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_17">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="GCNcapLanDau">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>1. Hồ Sơ Gốc</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GCNtungDonvi">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>2. Giấy Chứng Nhận ĐKV</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GCNtheoNam">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>3. QĐCN : Nhập, Sửa Danh Sách</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GCNkhoangTime">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>4. QĐCN : In Ấn</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GCNngayCapCN">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>5. Kiểm Tra Cấp Giấy CN</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GCNtoanBo">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>------------------------------------------</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="theoDoiKiLuat">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_18">
+            <item>
+             <widget class="QPushButton" name="KLbut">
+              <property name="styleSheet">
+               <string notr="true">QPushButton:hover{
+	color:#12B298;
+	background-color:white;
+	font-size:17px;
+	font-weight: bold;
+
+}
+QPushButton{
+	color:white;
+	font-size:13px;
+	font-weight: bold;
+
+}</string>
+              </property>
+              <property name="text">
+               <string>THEO DÕI KỶ LUẬT</string>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="KLlist">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_19">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="KLlanDau">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>1. Nhập Kỷ Luật ĐKV</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="KLtungDonvi">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>2. Kiểm Tra Theo Số QĐ</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="KLtheoNam">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>3. Kiểm Tra Theo Tên ĐKV</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="KLkhoangTime">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>4. Nhập Kỷ Luật Đơn Vị ĐK</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="KLngayCapCN">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>5. Kiểm Tra Kỷ Luật ĐV Theo Mã</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="KLtoanBo">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>18</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	padding-left:20px;
+	font-size:11px;
+	text-align:left;
+}
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>6. Kiểm Tra Kỷ Luật ĐV Theo Số QĐ</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>18</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="set2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	padding-left:20px;
+}
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/settings2.png</normaloff>
+             <normalon>:/icons/settings1.png</normalon>:/icons/settings2.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>200</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="q2">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	padding-left:20px;
+}
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/signout2.png</normaloff>
+             <normalon>:/icons/signout1.png</normalon>:/icons/signout2.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>200</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QWidget" name="icoOnly_wg" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>91</width>
+        <height>841</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>91</width>
+        <height>841</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+	background-color: rgb(0, 0, 0);
+}
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>12</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>13</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="maximumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="reources.qrc">:/icons/logo.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>17</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>0</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <property name="spacing">
+          <number>23</number>
+         </property>
+         <property name="topMargin">
+          <number>17</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="tkIcon_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/dashboardsmall1.png</normaloff>
+             <normalon>:/icons/dashboardsmall2.png</normalon>:/icons/dashboardsmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="tkIcon">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/institutionsmall1.png</normaloff>
+             <normalon>:/icons/institutionsmall2.png</normalon>:/icons/institutionsmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="LCicon">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/studentssmall1.png</normaloff>
+             <normalon>:/icons/studentssmall2.png</normalon>:/icons/studentssmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="CGicon">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/teacherssmall1.png</normaloff>
+             <normalon>:/icons/teacherssmall2.png</normalon>:/icons/teacherssmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="TDicon">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/financessmall1.png</normaloff>
+             <normalon>:/icons/financessmall2.png</normalon>:/icons/financessmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>519</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="set1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/settingssmall1.png</normaloff>
+             <normalon>:/icons/settingssmall2.png</normalon>:/icons/settingssmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="q1">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="reources.qrc">
+             <normaloff>:/icons/signoutsmall1.png</normaloff>
+             <normalon>:/icons/signoutsmall2.png</normalon>:/icons/signoutsmall1.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="reources.qrc"/>
+  <include location="../06_Responsive Slide Bar GUI/resources.qrc"/>
+  <include location="reources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>TKbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>tkList</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>luanChuyenBut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lcList</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>GCNbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>GCNList</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>304</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>480</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KLbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>KLlist</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>325</x>
+     <y>620</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>657</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>TKbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>tkIcon</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>80</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>luanChuyenBut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>LCicon</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>88</x>
+     <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>GCNbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>CGicon</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>442</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>68</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KLbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>TDicon</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>150</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>71</x>
+     <y>324</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>set2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>set1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>183</x>
+     <y>793</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>63</x>
+     <y>794</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>q2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>q1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>146</x>
+     <y>829</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>828</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>q1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>838</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>84</x>
+     <y>858</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>q2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>834</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>858</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>iconExpand_wg</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icoOnly_wg</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>43</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>97</x>
+     <y>48</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>themDVbut</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>tkIcon_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>63</x>
+     <y>113</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
